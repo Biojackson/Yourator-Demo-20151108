@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224B089CF8EAF3556EF18B50 /* libPods-Yourator v.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFB14767AA4CC996C4FC3FA /* libPods-Yourator v.1.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		E012452F1BD9013A00018A5C /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E012452D1BD9013A00018A5C /* HomeDetailViewController.m */; };
+		E01245301BD9013A00018A5C /* HomeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E012452E1BD9013A00018A5C /* HomeDetailViewController.xib */; };
+		E01B37041BE1D7BC001C11C2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01B37031BE1D7BC001C11C2 /* iAd.framework */; };
+		E01CB4921BD62B7500FF7C1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CB4911BD62B7500FF7C1F /* main.m */; };
+		E01CB4951BD62B7500FF7C1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CB4941BD62B7500FF7C1F /* AppDelegate.m */; };
+		E01CB4981BD62B7500FF7C1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CB4971BD62B7500FF7C1F /* ViewController.m */; };
+		E01CB49B1BD62B7500FF7C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01CB4991BD62B7500FF7C1F /* Main.storyboard */; };
+		E01CB49D1BD62B7500FF7C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01CB49C1BD62B7500FF7C1F /* Assets.xcassets */; };
+		E01CB4A01BD62B7500FF7C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01CB49E1BD62B7500FF7C1F /* LaunchScreen.storyboard */; };
+		E02BF4B21BDE0277001116D6 /* MyProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E02BF4B11BDE0277001116D6 /* MyProfileTableViewCell.m */; };
+		E02BF4B51BDE0A7C001116D6 /* MyProfileEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E02BF4B41BDE0A7C001116D6 /* MyProfileEditTableViewCell.m */; };
+		E02BF4B71BDE1917001116D6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02BF4B61BDE1917001116D6 /* MapKit.framework */; };
+		E02BF4BA1BDE19B2001116D6 /* CompanyDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E02BF4B91BDE19B2001116D6 /* CompanyDetailTableViewCell.m */; };
+		E02BF4BD1BDE1B63001116D6 /* CompanyMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E02BF4BC1BDE1B63001116D6 /* CompanyMapAnnotation.m */; };
+		E03AB2F11BE76D6A00AF42AC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03AB2F01BE76D6A00AF42AC /* ProfileViewController.m */; };
+		E03AB34D1BE8A82700AF42AC /* CompanyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E03AB34C1BE8A82700AF42AC /* CompanyTableViewCell.m */; };
+		E03AB3521BE8DF9600AF42AC /* libFBSDKCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E03AB34F1BE8DF9600AF42AC /* libFBSDKCoreKit.a */; };
+		E03AB3531BE8DF9600AF42AC /* libFBSDKLoginKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E03AB3501BE8DF9600AF42AC /* libFBSDKLoginKit.a */; };
+		E03AB3541BE8DF9600AF42AC /* libFBSDKShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E03AB3511BE8DF9600AF42AC /* libFBSDKShareKit.a */; };
+		E03BB4DB1BDB1A550046F6F4 /* MyProfileEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03BB4D91BDB1A550046F6F4 /* MyProfileEditTableViewController.m */; };
+		E03BB4DC1BDB1A550046F6F4 /* MyProfileEditTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E03BB4DA1BDB1A550046F6F4 /* MyProfileEditTableViewController.xib */; };
+		E09078D61BEE37870084A5EE /* CompanyDetailScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09078D51BEE37870084A5EE /* CompanyDetailScrollViewController.m */; };
+		E093816E1BD8BC7600F09A73 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E093816C1BD8BC7600F09A73 /* LoginViewController.m */; };
+		E093816F1BD8BC7600F09A73 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E093816D1BD8BC7600F09A73 /* LoginViewController.xib */; };
+		E09381731BD8BC9200F09A73 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09381711BD8BC9200F09A73 /* HomeViewController.m */; };
+		E09381741BD8BC9200F09A73 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09381721BD8BC9200F09A73 /* HomeViewController.xib */; };
+		E09381781BD8BCB500F09A73 /* CompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09381761BD8BCB500F09A73 /* CompanyViewController.m */; };
+		E09381791BD8BCB500F09A73 /* CompanyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09381771BD8BCB500F09A73 /* CompanyViewController.xib */; };
+		E09381821BD8BCD900F09A73 /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09381801BD8BCD900F09A73 /* MyProfileViewController.m */; };
+		E09381831BD8BCD900F09A73 /* MyProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E09381811BD8BCD900F09A73 /* MyProfileViewController.xib */; };
+		E093818D1BD8E90100F09A73 /* CompanyDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E093818B1BD8E90100F09A73 /* CompanyDetailTableViewController.m */; };
+		E094F6361BE2089C006829BD /* JobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E094F6341BE2089C006829BD /* JobViewController.m */; };
+		E094F6371BE2089C006829BD /* JobViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E094F6351BE2089C006829BD /* JobViewController.xib */; };
+		E094F63A1BE20A8C006829BD /* JobTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E094F6391BE20A8C006829BD /* JobTableViewCell.m */; };
+		E094F6401BE20B33006829BD /* JobDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E094F63C1BE20B32006829BD /* JobDetailTableViewCell.m */; };
+		E094F6411BE20B33006829BD /* JobDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E094F63E1BE20B33006829BD /* JobDetailTableViewController.m */; };
+		E094F6421BE20B33006829BD /* JobDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E094F63F1BE20B33006829BD /* JobDetailTableViewController.xib */; };
+		E094F6451BE248A7006829BD /* JobDetailEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E094F6441BE248A7006829BD /* JobDetailEditViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		498966612E42FD8C1C7DD1AC /* Pods-Yourator v.1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yourator v.1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yourator v.1/Pods-Yourator v.1.release.xcconfig"; sourceTree = "<group>"; };
+		5AFB14767AA4CC996C4FC3FA /* libPods-Yourator v.1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yourator v.1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAE335DB8D45ED5C73E2AF5 /* Pods-Yourator v.1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yourator v.1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yourator v.1/Pods-Yourator v.1.debug.xcconfig"; sourceTree = "<group>"; };
+		E012452C1BD9013A00018A5C /* HomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeDetailViewController.h; path = ../HomeDetailViewController.h; sourceTree = "<group>"; };
+		E012452D1BD9013A00018A5C /* HomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeDetailViewController.m; path = ../HomeDetailViewController.m; sourceTree = "<group>"; };
+		E012452E1BD9013A00018A5C /* HomeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeDetailViewController.xib; path = ../HomeDetailViewController.xib; sourceTree = "<group>"; };
+		E01B37031BE1D7BC001C11C2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		E01CB48D1BD62B7500FF7C1F /* Yourator v.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yourator v.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01CB4911BD62B7500FF7C1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E01CB4931BD62B7500FF7C1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E01CB4941BD62B7500FF7C1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E01CB4961BD62B7500FF7C1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E01CB4971BD62B7500FF7C1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E01CB49A1BD62B7500FF7C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E01CB49C1BD62B7500FF7C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E01CB49F1BD62B7500FF7C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E01CB4A11BD62B7500FF7C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02BF4B01BDE0277001116D6 /* MyProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileTableViewCell.h; sourceTree = "<group>"; };
+		E02BF4B11BDE0277001116D6 /* MyProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileTableViewCell.m; sourceTree = "<group>"; };
+		E02BF4B31BDE0A7C001116D6 /* MyProfileEditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileEditTableViewCell.h; sourceTree = "<group>"; };
+		E02BF4B41BDE0A7C001116D6 /* MyProfileEditTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileEditTableViewCell.m; sourceTree = "<group>"; };
+		E02BF4B61BDE1917001116D6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E02BF4B81BDE19B2001116D6 /* CompanyDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyDetailTableViewCell.h; sourceTree = "<group>"; };
+		E02BF4B91BDE19B2001116D6 /* CompanyDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyDetailTableViewCell.m; sourceTree = "<group>"; };
+		E02BF4BB1BDE1B63001116D6 /* CompanyMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyMapAnnotation.h; sourceTree = "<group>"; };
+		E02BF4BC1BDE1B63001116D6 /* CompanyMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyMapAnnotation.m; sourceTree = "<group>"; };
+		E03AB2EF1BE76D6A00AF42AC /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		E03AB2F01BE76D6A00AF42AC /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		E03AB34B1BE8A82700AF42AC /* CompanyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyTableViewCell.h; sourceTree = "<group>"; };
+		E03AB34C1BE8A82700AF42AC /* CompanyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyTableViewCell.m; sourceTree = "<group>"; };
+		E03AB34E1BE8C28400AF42AC /* Yourator v.1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Yourator v.1.entitlements"; sourceTree = SOURCE_ROOT; };
+		E03AB34F1BE8DF9600AF42AC /* libFBSDKCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKCoreKit.a; path = "Pods/../build/Debug-iphoneos/libFBSDKCoreKit.a"; sourceTree = "<group>"; };
+		E03AB3501BE8DF9600AF42AC /* libFBSDKLoginKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKLoginKit.a; path = "Pods/../build/Debug-iphoneos/libFBSDKLoginKit.a"; sourceTree = "<group>"; };
+		E03AB3511BE8DF9600AF42AC /* libFBSDKShareKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKShareKit.a; path = "Pods/../build/Debug-iphoneos/libFBSDKShareKit.a"; sourceTree = "<group>"; };
+		E03BB4D11BDA49930046F6F4 /* libBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBolts.a; path = "Pods/../build/Debug-iphoneos/libBolts.a"; sourceTree = "<group>"; };
+		E03BB4D81BDB1A550046F6F4 /* MyProfileEditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileEditTableViewController.h; sourceTree = "<group>"; };
+		E03BB4D91BDB1A550046F6F4 /* MyProfileEditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileEditTableViewController.m; sourceTree = "<group>"; };
+		E03BB4DA1BDB1A550046F6F4 /* MyProfileEditTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyProfileEditTableViewController.xib; sourceTree = "<group>"; };
+		E09078D41BEE37870084A5EE /* CompanyDetailScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyDetailScrollViewController.h; sourceTree = "<group>"; };
+		E09078D51BEE37870084A5EE /* CompanyDetailScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyDetailScrollViewController.m; sourceTree = "<group>"; };
+		E093816B1BD8BC7600F09A73 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E093816C1BD8BC7600F09A73 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E093816D1BD8BC7600F09A73 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		E09381701BD8BC9200F09A73 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E09381711BD8BC9200F09A73 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E09381721BD8BC9200F09A73 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		E09381751BD8BCB500F09A73 /* CompanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyViewController.h; sourceTree = "<group>"; };
+		E09381761BD8BCB500F09A73 /* CompanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyViewController.m; sourceTree = "<group>"; };
+		E09381771BD8BCB500F09A73 /* CompanyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyViewController.xib; sourceTree = "<group>"; };
+		E093817F1BD8BCD900F09A73 /* MyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileViewController.h; sourceTree = "<group>"; };
+		E09381801BD8BCD900F09A73 /* MyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileViewController.m; sourceTree = "<group>"; };
+		E09381811BD8BCD900F09A73 /* MyProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyProfileViewController.xib; sourceTree = "<group>"; };
+		E093818A1BD8E90100F09A73 /* CompanyDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyDetailTableViewController.h; sourceTree = "<group>"; };
+		E093818B1BD8E90100F09A73 /* CompanyDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyDetailTableViewController.m; sourceTree = "<group>"; };
+		E093818C1BD8E90100F09A73 /* CompanyDetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyDetailTableViewController.xib; sourceTree = "<group>"; };
+		E094F6331BE2089C006829BD /* JobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobViewController.h; sourceTree = "<group>"; };
+		E094F6341BE2089C006829BD /* JobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobViewController.m; sourceTree = "<group>"; };
+		E094F6351BE2089C006829BD /* JobViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobViewController.xib; sourceTree = "<group>"; };
+		E094F6381BE20A8C006829BD /* JobTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobTableViewCell.h; sourceTree = "<group>"; };
+		E094F6391BE20A8C006829BD /* JobTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobTableViewCell.m; sourceTree = "<group>"; };
+		E094F63B1BE20B32006829BD /* JobDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobDetailTableViewCell.h; sourceTree = "<group>"; };
+		E094F63C1BE20B32006829BD /* JobDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobDetailTableViewCell.m; sourceTree = "<group>"; };
+		E094F63D1BE20B32006829BD /* JobDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobDetailTableViewController.h; sourceTree = "<group>"; };
+		E094F63E1BE20B33006829BD /* JobDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobDetailTableViewController.m; sourceTree = "<group>"; };
+		E094F63F1BE20B33006829BD /* JobDetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobDetailTableViewController.xib; sourceTree = "<group>"; };
+		E094F6431BE248A7006829BD /* JobDetailEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobDetailEditViewController.h; sourceTree = "<group>"; };
+		E094F6441BE248A7006829BD /* JobDetailEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobDetailEditViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E01CB48A1BD62B7500FF7C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03AB3521BE8DF9600AF42AC /* libFBSDKCoreKit.a in Frameworks */,
+				E03AB3531BE8DF9600AF42AC /* libFBSDKLoginKit.a in Frameworks */,
+				E03AB3541BE8DF9600AF42AC /* libFBSDKShareKit.a in Frameworks */,
+				E01B37041BE1D7BC001C11C2 /* iAd.framework in Frameworks */,
+				E02BF4B71BDE1917001116D6 /* MapKit.framework in Frameworks */,
+				224B089CF8EAF3556EF18B50 /* libPods-Yourator v.1.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E52D9552F609047ADF8BF3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BAE335DB8D45ED5C73E2AF5 /* Pods-Yourator v.1.debug.xcconfig */,
+				498966612E42FD8C1C7DD1AC /* Pods-Yourator v.1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9C88A618D20FDF71ADABCE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E03AB34F1BE8DF9600AF42AC /* libFBSDKCoreKit.a */,
+				E03AB3501BE8DF9600AF42AC /* libFBSDKLoginKit.a */,
+				E03AB3511BE8DF9600AF42AC /* libFBSDKShareKit.a */,
+				E01B37031BE1D7BC001C11C2 /* iAd.framework */,
+				E02BF4B61BDE1917001116D6 /* MapKit.framework */,
+				E03BB4D11BDA49930046F6F4 /* libBolts.a */,
+				5AFB14767AA4CC996C4FC3FA /* libPods-Yourator v.1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E01CB4841BD62B7500FF7C1F = {
+			isa = PBXGroup;
+			children = (
+				E01CB48F1BD62B7500FF7C1F /* Yourator v.1 */,
+				E01CB48E1BD62B7500FF7C1F /* Products */,
+				5E52D9552F609047ADF8BF3F /* Pods */,
+				B9C88A618D20FDF71ADABCE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E01CB48E1BD62B7500FF7C1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E01CB48D1BD62B7500FF7C1F /* Yourator v.1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E01CB48F1BD62B7500FF7C1F /* Yourator v.1 */ = {
+			isa = PBXGroup;
+			children = (
+				E04B643F1BEBBFD80088DCFD /* Log in */,
+				E04B643B1BEBBFA30088DCFD /* Company */,
+				E04B643C1BEBBFAD0088DCFD /* Job */,
+				E04B643D1BEBBFC10088DCFD /* Profile */,
+				E04B643E1BEBBFCA0088DCFD /* Blog */,
+				E01CB4931BD62B7500FF7C1F /* AppDelegate.h */,
+				E01CB4941BD62B7500FF7C1F /* AppDelegate.m */,
+				E01CB4961BD62B7500FF7C1F /* ViewController.h */,
+				E01CB4971BD62B7500FF7C1F /* ViewController.m */,
+				E01CB4991BD62B7500FF7C1F /* Main.storyboard */,
+				E03AB34E1BE8C28400AF42AC /* Yourator v.1.entitlements */,
+				E01CB49C1BD62B7500FF7C1F /* Assets.xcassets */,
+				E01CB49E1BD62B7500FF7C1F /* LaunchScreen.storyboard */,
+				E01CB4A11BD62B7500FF7C1F /* Info.plist */,
+				E01CB4901BD62B7500FF7C1F /* Supporting Files */,
+			);
+			name = "Yourator v.1";
+			path = "Weekly 6 Exercise 實作新增修改刪除功能";
+			sourceTree = "<group>";
+		};
+		E01CB4901BD62B7500FF7C1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E01CB4911BD62B7500FF7C1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E04B643B1BEBBFA30088DCFD /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				E09381751BD8BCB500F09A73 /* CompanyViewController.h */,
+				E09381761BD8BCB500F09A73 /* CompanyViewController.m */,
+				E09381771BD8BCB500F09A73 /* CompanyViewController.xib */,
+				E03AB34B1BE8A82700AF42AC /* CompanyTableViewCell.h */,
+				E03AB34C1BE8A82700AF42AC /* CompanyTableViewCell.m */,
+				E093818A1BD8E90100F09A73 /* CompanyDetailTableViewController.h */,
+				E093818B1BD8E90100F09A73 /* CompanyDetailTableViewController.m */,
+				E093818C1BD8E90100F09A73 /* CompanyDetailTableViewController.xib */,
+				E02BF4B81BDE19B2001116D6 /* CompanyDetailTableViewCell.h */,
+				E02BF4B91BDE19B2001116D6 /* CompanyDetailTableViewCell.m */,
+				E02BF4BB1BDE1B63001116D6 /* CompanyMapAnnotation.h */,
+				E02BF4BC1BDE1B63001116D6 /* CompanyMapAnnotation.m */,
+				E09078D41BEE37870084A5EE /* CompanyDetailScrollViewController.h */,
+				E09078D51BEE37870084A5EE /* CompanyDetailScrollViewController.m */,
+			);
+			name = Company;
+			sourceTree = "<group>";
+		};
+		E04B643C1BEBBFAD0088DCFD /* Job */ = {
+			isa = PBXGroup;
+			children = (
+				E094F6331BE2089C006829BD /* JobViewController.h */,
+				E094F6341BE2089C006829BD /* JobViewController.m */,
+				E094F6351BE2089C006829BD /* JobViewController.xib */,
+				E094F6381BE20A8C006829BD /* JobTableViewCell.h */,
+				E094F6391BE20A8C006829BD /* JobTableViewCell.m */,
+				E094F63D1BE20B32006829BD /* JobDetailTableViewController.h */,
+				E094F63E1BE20B33006829BD /* JobDetailTableViewController.m */,
+				E094F63F1BE20B33006829BD /* JobDetailTableViewController.xib */,
+				E094F63B1BE20B32006829BD /* JobDetailTableViewCell.h */,
+				E094F63C1BE20B32006829BD /* JobDetailTableViewCell.m */,
+				E094F6431BE248A7006829BD /* JobDetailEditViewController.h */,
+				E094F6441BE248A7006829BD /* JobDetailEditViewController.m */,
+			);
+			name = Job;
+			sourceTree = "<group>";
+		};
+		E04B643D1BEBBFC10088DCFD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E03AB2EF1BE76D6A00AF42AC /* ProfileViewController.h */,
+				E03AB2F01BE76D6A00AF42AC /* ProfileViewController.m */,
+				E02BF4B01BDE0277001116D6 /* MyProfileTableViewCell.h */,
+				E02BF4B11BDE0277001116D6 /* MyProfileTableViewCell.m */,
+				E03BB4D81BDB1A550046F6F4 /* MyProfileEditTableViewController.h */,
+				E03BB4D91BDB1A550046F6F4 /* MyProfileEditTableViewController.m */,
+				E03BB4DA1BDB1A550046F6F4 /* MyProfileEditTableViewController.xib */,
+				E02BF4B31BDE0A7C001116D6 /* MyProfileEditTableViewCell.h */,
+				E02BF4B41BDE0A7C001116D6 /* MyProfileEditTableViewCell.m */,
+				E093817F1BD8BCD900F09A73 /* MyProfileViewController.h */,
+				E09381801BD8BCD900F09A73 /* MyProfileViewController.m */,
+				E09381811BD8BCD900F09A73 /* MyProfileViewController.xib */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		E04B643E1BEBBFCA0088DCFD /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				E09381701BD8BC9200F09A73 /* HomeViewController.h */,
+				E09381711BD8BC9200F09A73 /* HomeViewController.m */,
+				E09381721BD8BC9200F09A73 /* HomeViewController.xib */,
+				E012452C1BD9013A00018A5C /* HomeDetailViewController.h */,
+				E012452D1BD9013A00018A5C /* HomeDetailViewController.m */,
+				E012452E1BD9013A00018A5C /* HomeDetailViewController.xib */,
+			);
+			name = Blog;
+			sourceTree = "<group>";
+		};
+		E04B643F1BEBBFD80088DCFD /* Log in */ = {
+			isa = PBXGroup;
+			children = (
+				E093816B1BD8BC7600F09A73 /* LoginViewController.h */,
+				E093816C1BD8BC7600F09A73 /* LoginViewController.m */,
+				E093816D1BD8BC7600F09A73 /* LoginViewController.xib */,
+			);
+			name = "Log in";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E01CB48C1BD62B7500FF7C1F /* Yourator v.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E01CB4A41BD62B7500FF7C1F /* Build configuration list for PBXNativeTarget "Yourator v.1" */;
+			buildPhases = (
+				641B185DB5009BA10E35B70B /* Check Pods Manifest.lock */,
+				E01CB4891BD62B7500FF7C1F /* Sources */,
+				E01CB48A1BD62B7500FF7C1F /* Frameworks */,
+				E01CB48B1BD62B7500FF7C1F /* Resources */,
+				8D6BBAD00937C8CD7ECE47EA /* Embed Pods Frameworks */,
+				DBEAE0103B44C15D822EF124 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yourator v.1";
+			productName = "Weekly 6 Exercise 實作新增修改刪除功能";
+			productReference = E01CB48D1BD62B7500FF7C1F /* Yourator v.1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E01CB4851BD62B7500FF7C1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "洪駿之";
+				TargetAttributes = {
+					E01CB48C1BD62B7500FF7C1F = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 8H7X36TF25;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E01CB4881BD62B7500FF7C1F /* Build configuration list for PBXProject "Yourator v.1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E01CB4841BD62B7500FF7C1F;
+			productRefGroup = E01CB48E1BD62B7500FF7C1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E01CB48C1BD62B7500FF7C1F /* Yourator v.1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E01CB48B1BD62B7500FF7C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E094F6371BE2089C006829BD /* JobViewController.xib in Resources */,
+				E094F6421BE20B33006829BD /* JobDetailTableViewController.xib in Resources */,
+				E09381791BD8BCB500F09A73 /* CompanyViewController.xib in Resources */,
+				E03BB4DC1BDB1A550046F6F4 /* MyProfileEditTableViewController.xib in Resources */,
+				E09381831BD8BCD900F09A73 /* MyProfileViewController.xib in Resources */,
+				E093816F1BD8BC7600F09A73 /* LoginViewController.xib in Resources */,
+				E01CB4A01BD62B7500FF7C1F /* LaunchScreen.storyboard in Resources */,
+				E09381741BD8BC9200F09A73 /* HomeViewController.xib in Resources */,
+				E01CB49D1BD62B7500FF7C1F /* Assets.xcassets in Resources */,
+				E01245301BD9013A00018A5C /* HomeDetailViewController.xib in Resources */,
+				E01CB49B1BD62B7500FF7C1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		641B185DB5009BA10E35B70B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D6BBAD00937C8CD7ECE47EA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yourator v.1/Pods-Yourator v.1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBEAE0103B44C15D822EF124 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yourator v.1/Pods-Yourator v.1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E01CB4891BD62B7500FF7C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09381781BD8BCB500F09A73 /* CompanyViewController.m in Sources */,
+				E02BF4BD1BDE1B63001116D6 /* CompanyMapAnnotation.m in Sources */,
+				E093816E1BD8BC7600F09A73 /* LoginViewController.m in Sources */,
+				E02BF4BA1BDE19B2001116D6 /* CompanyDetailTableViewCell.m in Sources */,
+				E03AB34D1BE8A82700AF42AC /* CompanyTableViewCell.m in Sources */,
+				E09381821BD8BCD900F09A73 /* MyProfileViewController.m in Sources */,
+				E09078D61BEE37870084A5EE /* CompanyDetailScrollViewController.m in Sources */,
+				E094F6361BE2089C006829BD /* JobViewController.m in Sources */,
+				E02BF4B51BDE0A7C001116D6 /* MyProfileEditTableViewCell.m in Sources */,
+				E02BF4B21BDE0277001116D6 /* MyProfileTableViewCell.m in Sources */,
+				E093818D1BD8E90100F09A73 /* CompanyDetailTableViewController.m in Sources */,
+				E03BB4DB1BDB1A550046F6F4 /* MyProfileEditTableViewController.m in Sources */,
+				E094F6451BE248A7006829BD /* JobDetailEditViewController.m in Sources */,
+				E01CB4981BD62B7500FF7C1F /* ViewController.m in Sources */,
+				E094F63A1BE20A8C006829BD /* JobTableViewCell.m in Sources */,
+				E094F6411BE20B33006829BD /* JobDetailTableViewController.m in Sources */,
+				E03AB2F11BE76D6A00AF42AC /* ProfileViewController.m in Sources */,
+				E01CB4951BD62B7500FF7C1F /* AppDelegate.m in Sources */,
+				E09381731BD8BC9200F09A73 /* HomeViewController.m in Sources */,
+				E01CB4921BD62B7500FF7C1F /* main.m in Sources */,
+				E094F6401BE20B33006829BD /* JobDetailTableViewCell.m in Sources */,
+				E012452F1BD9013A00018A5C /* HomeDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E01CB4991BD62B7500FF7C1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E01CB49A1BD62B7500FF7C1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E01CB49E1BD62B7500FF7C1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E01CB49F1BD62B7500FF7C1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E01CB4A21BD62B7500FF7C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E01CB4A31BD62B7500FF7C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E01CB4A51BD62B7500FF7C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BAE335DB8D45ED5C73E2AF5 /* Pods-Yourator v.1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-20151007",
+				);
+				INFOPLIST_FILE = "Weekly 6 Exercise 實作新增修改刪除功能/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JacksonYouratorv1;
+				PRODUCT_NAME = "Yourator v.1";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E01CB4A61BD62B7500FF7C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498966612E42FD8C1C7DD1AC /* Pods-Yourator v.1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-20151007",
+				);
+				INFOPLIST_FILE = "Weekly 6 Exercise 實作新增修改刪除功能/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JacksonYouratorv1;
+				PRODUCT_NAME = "Yourator v.1";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E01CB4881BD62B7500FF7C1F /* Build configuration list for PBXProject "Yourator v.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01CB4A21BD62B7500FF7C1F /* Debug */,
+				E01CB4A31BD62B7500FF7C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E01CB4A41BD62B7500FF7C1F /* Build configuration list for PBXNativeTarget "Yourator v.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01CB4A51BD62B7500FF7C1F /* Debug */,
+				E01CB4A61BD62B7500FF7C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E01CB4851BD62B7500FF7C1F /* Project object */;
+}
